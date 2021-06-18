@@ -1,0 +1,53 @@
+
+{% extends 'layout.html' %}
+
+{% block pageTitle %}
+  Contact - Inclusive and equitable NHS services
+{% endblock %}
+
+{% block beforeContent %}
+  {{ breadcrumb({
+    href: "/index",
+    text: "Home"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+
+      <h1>
+        Contribute
+      </h1>
+      <p class="nhsuk-lede-text">
+        Words that encourage people to contribute.
+      </p>
+
+      <h2 class="nhsuk-heading-s">GitHub</h2>
+      <ul>
+        <li>
+          Feel free to make changes in our <a href="#">GitHub repository</a>.
+        </li>
+        <li>
+          We also have a <a href="#">guide for those new to GitHub and HTML</a>.
+        </li>
+      </ul>
+
+      <h2 class="nhsuk-heading-s">Form</h2>
+      <ul>
+        <li>
+          If you don't want to use GitHub, you can <a href="#">use this short form</a>.
+        </li>
+      </ul>
+
+      <h2 class="nhsuk-heading-s">Slack</h2>
+    
+      <ul>
+        <li>
+          Use the <a href="">#inclusive-equitable-services</a> channel in the NHS service manual public Slack workspace.
+        </li>
+      </ul>
+
+    </div>
+  </div>
+{% endblock %}
