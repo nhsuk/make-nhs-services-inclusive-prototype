@@ -1,0 +1,39 @@
+
+{% extends 'layout.html' %}
+
+{% block pageTitle %}
+  Our contributors
+{% endblock %}
+
+{% block beforeContent %}
+  {{ breadcrumb({
+    href: "/index",
+    text: "Home"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+
+      <h1>
+        Our contributors
+      </h1>
+
+      <div class="nhsuk-card">
+        <div class="nhsuk-card__content">
+          <h3 class="nhsuk-card__heading">
+            Contributors
+          </h3>
+          <ul class="app-contributors">
+            <li><a href="https://github.com/ericlamarca"><img src="https://avatars.githubusercontent.com/u/36114268?v=4" /></a></li>
+            <li><a href="https://github.com/nancyhalladay24"><img src="https://avatars.githubusercontent.com/u/63845568?v=4" /></a></li>
+            <li><a href="https://github.com/amyj2110"><img src="https://avatars.githubusercontent.com/u/60343363?v=4" /></a></li>
+          </ul>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+{% endblock %}
