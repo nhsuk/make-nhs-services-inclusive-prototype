@@ -1,0 +1,50 @@
+
+{% extends 'layout.html' %}
+
+{% block pageTitle %}
+  Home - Inclusive and equitable NHS services
+{% endblock %}
+
+{% block beforeContent %}
+  {{ breadcrumb({
+    items: [
+      {
+        href: "/index",
+        text: "Home"
+      }
+    ]
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+      <h1 class="nhsuk-u-margin-bottom-6">
+        Consider the experiences of groups who are often excluded
+      </h1>
+      <div class="nhsuk-card" style="background-color:#f0f4f5">
+        <div class="nhsuk-card__content">
+          <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2">
+            Contributors
+          </h2>
+          <span class="app-colour-list__swatch" style="background-color:#7C2855"></span>
+          <span class="app-colour-list__swatch" style="background-color:#330072"></span>
+          <span class="app-colour-list__swatch" style="background-color:#007f3b"></span>
+          <span class="app-colour-list__swatch" style="background-color:#212b32"></span>
+          <span class="app-colour-list__swatch" style="background-color:#d5281b"></span>
+          <span class="app-colour-list__swatch" style="background-color:#ffb81C"></span>
+          <span class="app-colour-list__swatch" style="background-color:#4c6272"></span>
+        </div>
+      </div>
+      <h2>Ask yourself who could be excluded by your content</h2>
+      <p>Some groups of people, particularly minority groups, are more likely to be excluded than others. This can be because of their age, abilities, ethnicity, a lack of resources or other circumstances.</p>
+      <h3 class="nhsuk-heading-xs">Example</h3>
+      <p>If someone who is pregnant does not identify as a woman, they may feel excluded by breastfeeding content. We interviewed trans men who had given birth and are creating new content on chestfeeding for this audience.</p>
+      <h2>Do not make assumptions about your users</h2>
+      <p>Be aware of your own biases and privilege, so that your design doesn’t just reflect your own lived experiences.</p>
+      <p>Carry out user research to make sure your design assumptions are correct.</p>
+      <h3 class="nhsuk-heading-xs">Example</h3>
+      <p>Some of our pregnancy content assumed that people were happy about their pregnancy. But a pregnant 15-year-old may not have the same needs as someone who's older with a planned pregnancy. So we considered the needs of people with different feelings.</p>
+    </div>
+  </div>
+{% endblock %}

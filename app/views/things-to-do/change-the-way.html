@@ -1,0 +1,60 @@
+
+{% extends 'layout.html' %}
+
+{% block pageTitle %}
+  Home - Inclusive and equitable NHS services
+{% endblock %}
+
+{% block beforeContent %}
+  {{ breadcrumb({
+    items: [
+      {
+        href: "/index",
+        text: "Home"
+      }
+    ]
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+      <h1 class="nhsuk-u-margin-bottom-6">
+        Change the way you design and build things
+      </h1>
+      <div class="nhsuk-card" style="background-color:#f0f4f5">
+        <div class="nhsuk-card__content">
+          <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2">
+            Contributors
+          </h2>
+          <span class="app-colour-list__swatch" style="background-color:#7C2855"></span>
+          <span class="app-colour-list__swatch" style="background-color:#330072"></span>
+          <span class="app-colour-list__swatch" style="background-color:#007f3b"></span>
+          <span class="app-colour-list__swatch" style="background-color:#212b32"></span>
+          <span class="app-colour-list__swatch" style="background-color:#d5281b"></span>
+          <span class="app-colour-list__swatch" style="background-color:#ffb81C"></span>
+          <span class="app-colour-list__swatch" style="background-color:#4c6272"></span>
+        </div>
+      </div>
+
+      <h2>
+        Consider co-designing your content
+      </h2>
+      <p>
+        Involve your users or charities that represent them. You may be able to draw on internal staff networks.
+      </p>
+      <p>
+        When we co-design, we share power more equally. Share power at every stage of your project: in research, decision-making, design, delivery and evaluation. Make it an ongoing conversation.
+      </p>
+      <h3 class="nhsuk-heading-xs">
+        Example
+      </h3>
+      <p>
+        We designed a new video player, so that it could show British Sign Language (BSL) versions of videos. We worked with our internal Deaf and hard of hearing group and with charities and iterated our prototypes with them.
+      </p>
+
+    </div>
+    <div class="nhsuk-grid-column-one-third">
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,45 @@
+
+{% extends 'layout.html' %}
+
+{% block pageTitle %}
+  Home - Inclusive and equitable NHS services
+{% endblock %}
+
+{% block beforeContent %}
+  {{ breadcrumb({
+    items: [
+      {
+        href: "/index",
+        text: "Home"
+      }
+    ]
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+      <h1 class="nhsuk-u-margin-bottom-6">
+        Conduct inclusive research
+      </h1>
+      <div class="nhsuk-card" style="background-color:#f0f4f5">
+        <div class="nhsuk-card__content">
+          <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2">
+            Contributors
+          </h2>
+          <span class="app-colour-list__swatch" style="background-color:#7C2855"></span>
+          <span class="app-colour-list__swatch" style="background-color:#330072"></span>
+          <span class="app-colour-list__swatch" style="background-color:#007f3b"></span>
+          <span class="app-colour-list__swatch" style="background-color:#212b32"></span>
+          <span class="app-colour-list__swatch" style="background-color:#d5281b"></span>
+          <span class="app-colour-list__swatch" style="background-color:#ffb81C"></span>
+          <span class="app-colour-list__swatch" style="background-color:#4c6272"></span>
+        </div>
+      </div>
+      <h2>Test your content with a broad range of users who have diverse backgrounds and abilities</h2>
+      <p>Be aware of users' challenges and assistive technology they may be using. Make sure the way you recruit participants is as inclusive as possible. Test with a diverse pool of people from all backgrounds and lived experiences.</p>
+      <h3 class="nhsuk-heading-xs">Example</h3>
+      <p>We tested the NHS website’s chickenpox page with people who have a range of skin tones. We also tested it with people with different access needs including users with a visual impairment, dyslexia, cerebral palsy and a neurological disorder. </p>
+    </div>
+  </div>
+{% endblock %}
