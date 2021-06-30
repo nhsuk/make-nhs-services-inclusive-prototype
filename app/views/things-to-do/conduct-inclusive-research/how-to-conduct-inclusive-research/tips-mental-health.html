@@ -1,0 +1,51 @@
+
+{% extends 'layout.html' %}
+
+{% block pageTitle %}
+  Conduct inclusive research - Inclusive and equitable NHS services
+{% endblock %}
+
+{% block beforeContent %}
+  {{ breadcrumb({
+    items: [
+      {
+        href: "/index",
+        text: "Home"
+      },
+      {
+        href: "/things-to-do/conduct-inclusive-research",
+        text: "Conduct inclusive user research"
+      },
+      {
+        href: "/things-to-do/conduct-inclusive-research/how-to-conduct-inclusive-research",
+        text: "How to conduct inclusive user research"
+      }
+      ]
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+      <h1 class="nhsuk-u-margin-bottom-6">
+        Tips when conducting research with people living with mental health conditions
+      </h1>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2">
+        Contributors
+      </h2>
+      <ul class="app-contributors">
+        <li><a href="https://github.com/sarawilcox"><img src="https://avatars.githubusercontent.com/u/45792959?v=4" /></a></li>
+        <li><a href="https://github.com/amyj2110"><img src="https://avatars.githubusercontent.com/u/60343363?v=4" /></a></li>
+      </ul>
+
+      <h2>Allow people to choose who they want to attend the session</h3>
+      <p>[add more]</p>
+      <h2>Prepare for emotionally difficult sessions</h3>
+      <p>[add more]</p>
+      <h2>Ensure proper safeguarding</h3>
+      <p>[add more]</p>
+
+    </div>
+  </div>
+{% endblock %}

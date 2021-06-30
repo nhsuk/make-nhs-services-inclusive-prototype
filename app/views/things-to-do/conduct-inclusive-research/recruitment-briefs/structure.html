@@ -1,0 +1,65 @@
+
+{% extends 'layout.html' %}
+
+{% block pageTitle %}
+  Conduct inclusive research - Inclusive and equitable NHS services
+{% endblock %}
+
+{% block beforeContent %}
+  {{ breadcrumb({
+    items: [
+      {
+        href: "/index",
+        text: "Home"
+      },
+      {
+        href: "/things-to-do/conduct-inclusive-research",
+        text: "Conduct inclusive user research"
+      },
+      {
+        href: "/things-to-do/conduct-inclusive-research/recruitment-briefs",
+        text: "How to write recruitment briefs"
+      }
+      ]
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+      <h1 class="nhsuk-u-margin-bottom-6">
+        Structure
+      </h1>
+
+      <p>Hi,</p>
+      <p>We are looking to conduct [insert number, and length] research sessions via [Teams, Zoom, etc.,] on [insert date or week].</p>
+      <p>We are working on [this service, this team etc] and we need to hear from people who [key user group determiner of the service, e.g., have booked GP appointments digitally].</p>
+      <p>An example of what we are looking for:</p>
+      <ul>
+        <li>Age range </li>
+        <li>Location / residency [do they have to live in England?]</li>
+        <li>Gender mix? [explain the mix, and how important this is]</li>
+        <li>Work status or job role [not working, GP administrator]</li>
+        <li>Any habits or specifications that are relevant to the research [e.g., they are NHS App users, they are carers for their parents] </li>
+        <li>Any experience with NHS services? [does anything eliminate them?]</li>
+        <li>Technological literacy? [comfortable using the internet, not comfortable at all…</li>
+        <li>Access needs?</li>
+      </ul>
+      <p>Exclusions</p>
+      <p>List all things that means that they cannot participate in the research, for example: </p>
+      <ul>
+        <li>No health workers</li>
+        <li>No previous experience of NHS research </li>
+      </ul>
+      <p>Additional / nice to have requests</p>
+      <ul>
+        <li>It would be great if you could find some who [x], but this is not essential.</li>
+      </ul>
+      <p>Please let me know if this is something you can help with, and how much you think it should cost.</p>
+
+      <p>Thank you,</p>
+
+
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,62 @@
+
+{% extends 'layout.html' %}
+
+{% block pageTitle %}
+  Conduct inclusive research - Inclusive and equitable NHS services
+{% endblock %}
+
+{% block beforeContent %}
+  {{ breadcrumb({
+    items: [
+      {
+        href: "/index",
+        text: "Home"
+      },
+      {
+        href: "/things-to-do/conduct-inclusive-research",
+        text: "Conduct inclusive user research"
+      },
+      {
+        href: "/things-to-do/conduct-inclusive-research/how-to-conduct-inclusive-research",
+        text: "How to conduct inclusive user research"
+      }
+      ]
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+      <h1 class="nhsuk-u-margin-bottom-6">
+        Tips when conducting research with participants with vision impairments
+      </h1>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2">
+        Contributors
+      </h2>
+      <ul class="app-contributors">
+        <li><a href="https://github.com/sarawilcox"><img src="https://avatars.githubusercontent.com/u/45792959?v=4" /></a></li>
+        <li><a href="https://github.com/amyj2110"><img src="https://avatars.githubusercontent.com/u/60343363?v=4" /></a></li>
+      </ul>
+
+      <h2>Allow screen reader users to set the speed of the screen reader</h2>
+      <p>Allow users to set their screen reader to the speed they usually would use it at home: this will encourage them to engage naturally with the website or app. However, some advanced screen reader users may use their screen reader at such a speed that it is difficult to know what they are doing or what the screen reader announces.</p>
+      <p>To get around this, when they discover an issue or if the user becomes confused, ask them to explain the issue and what keys they pressed. If needed, also ask them to slow the screen reader down and show you the issue, so that you can understand what was announced and what happened.</p>
+      <h2>Capture keystrokes used by screen reader participants</h2>
+      <p>When an issue is identified, as much as possible, record what keystrokes screen reader participants are using to interact with your product. That way you can understand how users are trying to interact with the website, and how they expect it to behave.</p>
+      <h2>Use best practice to guide blind participants</h2>
+      <p>As a researcher, you may sometimes need to guide blind participants. Best practice is to offer them your elbow for them to hold on to, and to make sure you tell them where you’re going and where things are (e.g. “we’re going through a door; the chair is to your right”).</p>
+      <h2>Make sure the space is physically accessible</h2>
+      <p>Some blind people may have a guide dog, it is therefore important to ensure that the research space is large enough for them too. It is also good to have a water bowl for the guide dog in the room.</p>
+      <h2>Make rating scales accessible</h2>
+      <p>If you’re using visual cues (e.g. rating scales) make sure you print them off in large print for those with low vision. For blind participants, make sure that you’re not asking them to remember too much information. For example, with rating scales, don’t tell them what each number stands for (e.g. somewhat/strongly agree/disagree) just tell them what number 1 and number 5 stand for and ask them to pick one in between.</p>
+      <h2>Be aware of using colours when using visual prompts</h2>
+      <p>When asking users to do things like annotate print outs using different coloured pens, or placing different coloured stickers on print outs, be aware that not all users can perceive colour. Try to use other markers as well as colour. For example, if using stickers, try to find stickers which aren’t only a different colour but also a different shape. If you have any
+      documents which you would like participants to read, make sure information isn’t conveyed using colour alone.
+      </p>
+      <h2>Use HTML prototypes</h2>
+      <p>HTML prototypes can be easily tested with screenreader users. Using tools like Figma and Invision is inherently exclusive because they don’t work with screenreaders.</p>
+
+    </div>
+  </div>
+{% endblock %}

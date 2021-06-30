@@ -1,0 +1,108 @@
+
+{% extends 'layout.html' %}
+
+{% block pageTitle %}
+  Conduct inclusive research - Inclusive and equitable NHS services
+{% endblock %}
+
+{% block beforeContent %}
+  {{ breadcrumb({
+    items: [
+      {
+        href: "/index",
+        text: "Home"
+      },
+      {
+        href: "/things-to-do/conduct-inclusive-research",
+        text: "Conduct inclusive user research"
+      }
+      ]
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+      <h1 class="nhsuk-u-margin-bottom-3">
+        Research findings
+      </h1>
+      <p class="nhsuk-u-margin-bottom-6">A list of key findings teams have found when working to make their service more inclusive.</p>
+
+      <div class="nhsuk-card">
+        <div class="nhsuk-card__content">
+          <h2 class="nhsuk-card__heading nhsuk-heading-s">
+            Finding X
+          </h2>
+            <p>This paragraph expands a bit on the headline finding above.</p>
+            <details class="nhsuk-details">
+              <summary class="nhsuk-details__summary">
+                <span class="nhsuk-details__summary-text">
+                  Contact
+                </span>
+              </summary>
+              <div class="nhsuk-details__text">
+                <ul class="nhsuk-list">
+                  <li>Name Lastname</li>
+                  <li><a href="">namelastname@nhs.net</a></li>
+                  <li>User researcher</li>
+                  <li>NHS.UK Mission Team 2</li>    
+                </ul>
+              </div>
+            </details>
+          </h2>
+        </div>
+      </div>
+
+      <div class="nhsuk-card">
+        <div class="nhsuk-card__content">
+          <h2 class="nhsuk-card__heading nhsuk-heading-s">
+            Finding Y
+          </h2>
+            <p>This paragraph expands a bit on the headline finding above.</p>
+            <details class="nhsuk-details">
+              <summary class="nhsuk-details__summary">
+                <span class="nhsuk-details__summary-text">
+                  Contact
+                </span>
+              </summary>
+              <div class="nhsuk-details__text">
+                <ul class="nhsuk-list">
+                  <li>Name Lastname</li>
+                  <li><a href="">namelastname@nhs.net</a></li>
+                  <li>User researcher</li>
+                  <li>NHS.UK Mission Team 2</li>    
+                </ul>
+              </div>
+            </details>
+          </h2>
+        </div>
+      </div>
+
+      <div class="nhsuk-card">
+        <div class="nhsuk-card__content">
+          <h2 class="nhsuk-card__heading nhsuk-heading-s">
+            Finding Z
+          </h2>
+            <p>This paragraph expands a bit on the headline finding above.</p>
+            <details class="nhsuk-details">
+              <summary class="nhsuk-details__summary">
+                <span class="nhsuk-details__summary-text">
+                  Contact
+                </span>
+              </summary>
+              <div class="nhsuk-details__text">
+                <ul class="nhsuk-list">
+                  <li>Name Lastname</li>
+                  <li><a href="">namelastname@nhs.net</a></li>
+                  <li>User researcher</li>
+                  <li>NHS.UK Mission Team 2</li>    
+                </ul>
+              </div>
+            </details>
+          </h2>
+        </div>
+      </div>
+
+    </div>
+  </div>
+{% endblock %}
