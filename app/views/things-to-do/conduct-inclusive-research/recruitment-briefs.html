@@ -1,0 +1,36 @@
+
+{% extends 'layout.html' %}
+
+{% block pageTitle %}
+  Conduct inclusive research - Inclusive and equitable NHS services
+{% endblock %}
+
+{% block beforeContent %}
+  {{ breadcrumb({
+    items: [
+      {
+        href: "/index",
+        text: "Home"
+      },
+      {
+        href: "/things-to-do/conduct-inclusive-research",
+        text: "Conduct inclusive user research"
+      }
+      ]
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+      <h1 class="nhsuk-u-margin-bottom-8">
+        How to write recruitment briefs
+      </h1>
+
+      <h2 class="nhsuk-heading-s nhsuk-u-margin-bottom-4"><a href="recruitment-briefs/structure">Structure and examples for recruitment briefs</a></h2>
+      <h2 class="nhsuk-heading-s nhsuk-u-margin-bottom-4"><a href="how-to-conduct-inclusive-research/tips-trans-people">Workings</a></h2>
+   
+
+    </div>
+  </div>
+{% endblock %}

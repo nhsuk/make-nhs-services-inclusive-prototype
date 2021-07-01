@@ -1,0 +1,59 @@
+
+{% extends 'layout.html' %}
+
+{% block pageTitle %}
+  Conduct inclusive research - Inclusive and equitable NHS services
+{% endblock %}
+
+{% block beforeContent %}
+  {{ breadcrumb({
+    items: [
+      {
+        href: "/index",
+        text: "Home"
+      },
+      {
+        href: "/things-to-do/conduct-inclusive-research",
+        text: "Conduct inclusive user research"
+      },
+      {
+        href: "/things-to-do/conduct-inclusive-research/how-to-conduct-inclusive-research",
+        text: "How to conduct inclusive user research"
+      }
+      ]
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+      <h1 class="nhsuk-u-margin-bottom-4">
+        Tips when conducting research with trans people
+      </h1>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2">
+        Contributors
+      </h2>
+      <ul class="app-contributors nhsuk-u-margin-bottom-6">
+        <li><a href="#"><img src="https://ca.slack-edge.com/T0FRZQSMB-U46BM50BW-6b9f306ef5c9-512" /></a></li>
+        <li><a href="https://github.com/amyj2110"><img src="https://avatars.githubusercontent.com/u/60343363?v=4" /></a></li>
+        <li><a href="#"><img src="https://ca.slack-edge.com/T0FRZQSMB-U01C7QTAF4L-d64867ca1349-512" /></a></li>
+        <li><a href="https://github.com/samanthasaw"><img src="https://avatars.githubusercontent.com/u/38656667?v=4" /></a></li>
+        <li><a href="https://github.com/sarawilcox"><img src="https://avatars.githubusercontent.com/u/45792959?v=4" /></a></li>
+      </ul>
+
+      <hr>
+      <h2>When you introduce yourself, tell the person your pronouns</h2>
+      <p>This normalises asking for pronouns, and allows everyone to express how they would like to be addressed. Never assume someone’s pronouns.</p>
+
+      <hr>
+      <h2>Where you might be asking someone to view non-inclusive content, it’s beneficial to give people trigger warnings</h2>
+      <p>This can be as simple as a verbal warning like “We’re going to show you a page on breastfeeding now, which might be triggering. If at any point you need to leave or stop, please do so.” It is important to do this because:</p>
+      <ul>
+        <li>People may need to stop and mentally prepare themselves to deal with something that is emotionally harming to them.</li>
+        <li>People might not feel able to deal with the content during the session and may have to stop. It’s important that they feel able and supported to do so.</li>
+      </ul>
+
+    </div>
+  </div>
+{% endblock %}
