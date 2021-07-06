@@ -1,0 +1,121 @@
+
+{% extends 'layout.html' %}
+
+{% block pageTitle %}
+  Structure and examples for recruitment briefs - Make NHS services inclusive
+{% endblock %}
+
+{% block beforeContent %}
+  {{ breadcrumb({
+    items: [
+      {
+        href: "/index",
+        text: "Home"
+      },
+      {
+        href: "/things-to-do/conduct-inclusive-research",
+        text: "Conduct inclusive research"
+      },
+      {
+        href: "/things-to-do/conduct-inclusive-research/how-to-write-recruitment-briefs",
+        text: "How to write recruitment briefs"
+      }
+      ]
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+      <h1 class="nhsuk-u-margin-bottom-6">
+        Structure and examples for recruitment briefs
+      </h1>
+
+      <h2>Structure</h2>
+      <p>Here is a template you can use for a range of situations.</p>
+
+      <div class="app-example app-example--content">
+        <p>Hi,</p>
+        <p>We're planning to conduct [insert number and length] research sessions via [for example, Teams or Zoom] on [insert date or week].</p>
+        <p>We are working on [this service or this team] and we need to hear from people who [explain the key thing you're looking for, for example, have booked GP appointments digitally].</p>
+        <p>An example of what we are looking for:</p>
+        <ul>
+          <li>age range </li>
+          <li>location or residency [for example, do they have to live in England?]</li>
+          <li>gender mix [explain the mix, and how important this is]</li>
+          <li>work status or job role [for example, not working, GP administrator]</li>
+          <li>any habits or specifications that are relevant to the research [for example, they are NHS App users, they are carers for their parents] </li>
+          <li>any experience with NHS services [does anything exclude them from the research?]</li>
+          <li>technological literacy [comfortable using the internet or not comfortable at all</li>
+          <li>access needs</li>
+        </ul>
+        <p>Exclusions</p>
+        <p>List everything that means that they cannot participate in the research. For example:</p>
+        <ul>
+          <li>no health workers</li>
+          <li>no previous experience of NHS research </li>
+        </ul>
+        <p>Additional or nice to have requests</p>
+        <ul>
+          <li>It would be great if you could find some [x], but this is not essential.</li>
+        </ul>
+        <p>Please let me know if this is something you can help with, and how much you think it will cost.</p>
+        <p>Thank you</p>
+      </div>
+
+      <h2>Examples</h2>
+      <p>Here are examples to illustrate how to use the structure above.</p>
+      
+      <div class="app-example app-example--content">
+        <strong class="nhsuk-tag app-example__heading">Example</strong>
+          <p>3 participants who have never been invited to breast cancer screening or attended a mammogram:</p>
+          <ul>
+            <li>aged 40 to 52</li>
+            <li>mix of socio-economic groups</li>
+            <li>mix of work status (full time, part time, not working)</li>
+            <li>at least 1 participant whose first language is not English</li>
+            <li>at least 1 participant who uses a wheelchair or has difficulty standing for long periods of time and uses walking aids (such as a stick)</li>
+            <li>at least 1 participant whose mother or sister has had breast cancer</li>
+          </ul>
+          <p>3 participants who have attended breast cancer screening at least once:</p>
+          <ul>
+            <li>aged 50 to 65</li>
+            <li>mix of socio-economic groups</li>
+            <li>mix of work status (full time, part time, not working)</li>
+            <li>at least 1 participant whose first language is not English</li>
+            <li>at least 1 participant who uses a wheelchair or has difficulty standing for long periods of time and uses walking aids (such as a stick)</li>
+          </ul>
+          <p>Exclusions</p>
+          <ul>
+            <li>None of the participants should be cis-male.</li>
+            <li>None of the participants should have had breast cancer in the past or be undergoing treatment for breast cancer.</li>
+            <li>None of the participants should work as healthcare professionals, but people working in social care or as careworkers can be included.</li>
+            <li>None of the participants should work in IT, marketing, media, design or communications roles.</li>
+            <li>No more than 3 participants should be White British.</li>
+          </ul>
+          <p>Additional request</p>
+          <ul>  
+            <li>If possible, it would be great to have 1 participant who has breast implants.</li>
+          </ul>
+      </div>
+
+      <div class="app-example app-example--content">
+        <strong class="nhsuk-tag app-example__heading">Example</strong>
+          <p>Participant criteria:</p>
+          <ul>
+            <li>2 participants with access needs</li>
+            <li>ideally from a range of socio-economic backgrounds</li>
+            <li>ideally with a mix of technical confidence</li>
+            <li>must be aged 18+ (mix of age ranges if possible)</li>
+            <li>must have access to their own iOS (Apple) or Android smartphone</li>
+            <li>must have used an NHS service (such as a GP, hospital, pharmacy, dentist, optician) within the last 12 months</li>
+            <li>must not have worked for the NHS or in healthcare in the past 5 years</li>
+            <li>must not have worked in digital, IT or technology professions in the past 5 years</li>
+            <li>must not have participated in any NHS research within the last 12 months</li>
+          </ul>
+      </div>
+
+
+    </div>
+  </div>
+{% endblock %}
