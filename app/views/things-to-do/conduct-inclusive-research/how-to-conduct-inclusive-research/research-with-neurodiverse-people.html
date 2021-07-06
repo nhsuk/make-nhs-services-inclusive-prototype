@@ -1,0 +1,71 @@
+
+{% extends 'layout.html' %}
+
+{% block pageTitle %}
+  Research with neurodiverse people - Make NHS services inclusive
+{% endblock %}
+
+{% block beforeContent %}
+  {{ breadcrumb({
+    items: [
+      {
+        href: "/index",
+        text: "Home"
+      },
+      {
+        href: "/things-to-do/conduct-inclusive-research",
+        text: "Conduct inclusive research"
+      },
+      {
+        href: "/things-to-do/conduct-inclusive-research/how-to-conduct-inclusive-research",
+        text: "How to conduct inclusive research"
+      }
+      ]
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+      <h1 class="nhsuk-u-margin-bottom-4">
+        Research with neurodiverse people
+      </h1>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2">
+        Contributors
+      </h2>
+      <ul class="app-contributors nhsuk-u-margin-bottom-6">
+        <li><a id="amy-james" href="https://github.com/amyj2110"><img src="https://avatars.githubusercontent.com/u/60343363?v=4" /></a></li>
+        <li><a id="michelle-parfitt" href="#"><img src="https://ca.slack-edge.com/T0FRZQSMB-U01C7QTAF4L-d64867ca1349-512" /></a></li>
+        <li><a id="samantha-saw" href="https://github.com/samanthasaw"><img src="https://avatars.githubusercontent.com/u/38656667?v=4" /></a></li>
+        <li><a id="sara-wilcox" href="https://github.com/sarawilcox"><img src="https://avatars.githubusercontent.com/u/45792959?v=4" /></a></li>
+        <li><a id="chloe-philippou" href="#"><img src="https://ca.slack-edge.com/T0FRZQSMB-U46BM50BW-6b9f306ef5c9-512" /></a></li>
+       <li><a id="rhiannon-smith" href="#"><img src="https://ca.slack-edge.com/T0FRZQSMB-U99S6SQ4V-16dd6340c1b3-192" /></a></li>
+       <li><a id="richard-kelly" href="#"><img src="https://ca.slack-edge.com/T0FRZQSMB-U8Q4A83LG-fbca3f9455dd-512" /></a></li>
+      </ul>
+
+      <hr>
+      <h2>Write down tasks and scenarios</h2>
+      <p>Keep tasks and scenarios as short as possible, without compromising on clarity. Present them to the participants and read through the tasks and scenarios with them. This will make it easier for people with dyslexia and attention deficits to follow.</p>
+
+      <hr>
+      <h2>Include visuals in instructions</h2>
+      <p>Where appropriate, provide visual rather than, or in addition to, written instructions. This will make it easier for participants with dyslexia and learning and communication difficulties to follow.</p>
+
+      <hr>
+      <h2>Allow participants to complete scenarios as themselves</h2>
+      <p>It's common in user research to ask participants to imagine that they are a fictional person. For example, "Imagine you're Chris, you're 57 years old and you'd like to fly to Malta with your partner, Skye, on 3 December."</p>
+      <p>Abstract concepts can be difficult for people with some cognitive impairments to grasp, so it's better to let them complete tasks and scenarios as themselves.</p>
+
+      <hr>
+      <h2>Split up questions and tasks</h2>
+      <p>Some people may become easily overwhelmed or find it difficult to remember large chunks of information. Reduce cognitive load by splitting up tasks and questions into smaller, more manageable chunks.</p>
+
+      <hr>
+      <h2>Use rating scales as a conversation prompt</h2>
+      <p>People with some cognitive differences, like learning difficulties, may struggle to understand how to give a rating to indicate their opinion.</p>
+      <p>However, you can use rating scales as a conversation point, instead of relying on just the number they answer with. Ask participants why they gave that number so that they can tell you more about what they're thinking.</p>
+
+    </div>
+  </div>
+{% endblock %}
