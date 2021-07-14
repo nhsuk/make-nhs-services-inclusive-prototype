@@ -1,0 +1,67 @@
+
+{% extends 'layout.html' %}
+
+{% block pageTitle %}
+  Why it's important - Make NHS services inclusive
+{% endblock %}
+
+{% block beforeContent %}
+  {{ breadcrumb({
+    items: [
+      {
+        href: "/index",
+        text: "Home"
+      }
+    ]
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+      <h1 class="nhsuk-u-margin-bottom-4">
+        Why it's important
+      </h1>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2">
+        Contributors
+      </h2>
+      <ul class="app-contributors">
+        <li><a id="sara-wilcox" href="#"><img src="/images/sara-wilcox.jpg" alt="sara wilcox"></a></li>
+        <li><a id="chloe-philippou" href="#"><img src="/images/chloe-philippou.jpg" alt="chloe philippou"></a></li>
+        <li><a id="rhiannon-smith" href="#"><img src="/images/rhiannon-smith.png" alt="rhiannon smith"></a></li>
+        <li><a id="richard-kelly" href="#"><img src="/images/richard-kelly.png" alt="richard kelly"></a></li>
+      </ul>
+
+      <hr>
+      <h2>NHS services are for everyone</h2>
+      <p><a href="https://service-manual.nhs.uk/service-standard/5-make-sure-everyone-can-use-the-service">Point 5 in the NHS service standard is about making sure that everyone can use our services</a>.</p>
+      <p>That means building inclusive services so that everyone gets the care they need.</p>
+       <div class="app-example app-example--content">
+        <strong class="nhsuk-tag app-example__heading">Examples</strong>
+        <p class="nhsuk-u-margin-bottom-0">Some users face problems when they use NHS services because of:</p>
+        <ul>
+          <li>their socio-economic status or living in poverty</li>
+          <li>“protected characteristics” like ethnicity, gender reassignment, sexual orientation or disability (see the <a href="https://www.equalityhumanrights.com/en/equality-act/protected-characteristics">protected characteristics on the Equalities and Human Rights Commission website</a>)</li>
+          <li>being part of a vulnerable group, such as Travellers, rough sleepers or sex workers</li>
+          <li>where they live</li>
+        </ul>
+      </div>
+      <p>Inclusive, accessible services are better for everyone.</p>
+     
+      <h2>What we mean by inclusion and accessibility</h2>
+      <p>This is what the guidance on the NHS service standard, point 5, says.</p>
+      <p>Inclusion is about responding to people's differences so that everyone:</p>
+      <ul>
+        <li>feels NHS services are for them</li>
+        <li>can access the services they need, regardless of their background, identity or circumstances</li>
+      </ul>
+      <p>Accessibility is about making digital services work for everyone, including people who face barriers related to:</p>
+      <ul>
+        <li>hearing, like people who are Deaf or have hearing loss</li>
+        <li>mobility, like people who find it difficult to use a mouse</li>
+        <li>thinking or understanding in a different way, like autistic people or people with dyslexia or learning difficulties</li>
+        <li>vision, like people who are blind, partially sighted or colour blind</li>
+      </ul>
+  </div>
+{% endblock %}
