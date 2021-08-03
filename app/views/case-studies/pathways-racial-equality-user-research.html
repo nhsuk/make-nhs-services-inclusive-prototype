@@ -1,0 +1,115 @@
+
+{% extends 'layout.html' %}
+
+{% block pageTitle %}
+  Why it's important - Make NHS services inclusive
+{% endblock %}
+
+{% block beforeContent %}
+  {{ breadcrumb({
+    items: [
+      {
+        href: "/index",
+        text: "Home"
+      }
+    ]
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-full nhsuk-u-reading-width">
+      <h1 class="nhsuk-u-margin-bottom-4">
+        Racial equality user research
+      </h1>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2">
+      <ul class="app-contributors">
+        <li><a id="brigit-osullivan" href="#"><img src="/images/brigit-osullivan.jpg" alt="brigit o'sullivan"></a>     Brigit O'Sullivan</li>
+      </ul>
+      </h2>
+
+      <hr>
+      </div>
+        <div class="nhsuk-grid-column-two-thirds">
+
+      <p>NHS Pathways wanted to improve the 111 experience for patients of colour with the goal of making 111 more inclusive for people with darker skin tones. </p>
+
+        <p>We conducted user research with people with brown and black skin, focusing on the language used by the 111 telephony service to describe illnesses and conditions affecting the skin. We also wanted to learn how various skin conditions present in people with darker skin tones to ascertain whether the questions 111 asks are phrased appropriately and if we are obtaining the most accurate information from the patient about their condition.</p>
+
+      <h2>The research</h2>
+      <p>User research seemed like the best way of learning more about the 111 experience for people of colour. This allowed us to hear, first-hand, about their lived experiences and enabled the team to work in a user-centred way. We based any iterations we made directly on feedback we received from users, while working with clinicians to ensure that 111 questions remained clinically safe.</p>
+      <p>We conducted two rounds of research with members of the public, speaking with 12 people in total.</p>
+      <p>The research objectives were:</p>
+        <ol>
+          <li>To understand the existing experience of calling 111 for patients with black and brown skin</li>
+          <li>To find out how people with black and brown skin would feel about being asked their skin colour by 111</li>
+          <li>To find out how people with black and brown skin describe their skin colour </li>
+          <li>To find out how people with black and brown skin describe skin conditions on brown or black skin </li>
+          <li>To find out which 111 questions are difficult to answer if you have brown and black skin </li>
+          </ol>
+
+
+      <p>We recruited users via a recruitment agency. We specified what we wanted from the recruitment agency to ensure a diverse group of participants.</p>
+
+      <p>Some of the requests we made were:</p>
+      <ul>
+        <li>Participants who identified as having black or brown skin</li>
+        <li>Participants who had recently called 111 for a health problem that caused a change in skin colour (illness, rash, etc)</li>
+        <li>Participants from a range of ages, socioeconomic classes, and geographic locations in England</li>
+        <li>Participants from a range of ethnic backgrounds</li>
+      </ul>
+
+      <p>We conducted the research in a semi-structured, user-led way. We asked open-ended, probing questions and allowed the users to tell us about their experiences. We wanted to hear how users would describe things in their own words, so we asked them to describe, in detail, what their skin looks like when they are ill or have a rash.</p>
+
+      <p>We tried to create an environment where users could feel comfortable being honest and offering criticism. We stressed that we were looking for open and honest feedback and they shouldn’t worry about offending us, because the goal of the research was to improve the service. Some of the feedback we received from users was critical. Some felt that the current 111 questions were white-centric and that supporting information telling users with darker skin to look on paler parts of the body maintained white as the standard to which they had to compare themselves.</p>
+
+      <h2>What we learned</h2>
+      <p>While we conducted only two rounds of research with members of the public, some very clear patterns emerged in terms of the language users used to describe how their skin looks when ill. This made it possible for the team to iterate 111 questions and test the iterations in the second round of research.</p>
+      <p>We gained a better understanding of the language users use to refer to their own skin colour as well as the language used to describe skin changes due to illness or rash. For example, we learned that users with brown and black skin often use the words “pale”, “grey” and “ashy” to describe what skin during illness looks like. “Blue” isn’t always a helpful word for people with brown or black skin, as it’s not a colour they’ve tended to see on themselves or people they know. So, we added the word “grey” to our questions that ask about pale and blue skin, to make the question more inclusive.</p>
+      <p>We thought the word “red” might be problematic, but we learned that patients with brown and black skin do tend to recognise redness in their skin and know what this would look like. However, we learned that most of our users had never experienced sunburn, so referring to a rash that “looks like sunburn” was not helpful, as it’s not universally experienced. One user said, “You’ve made an assumption a white person has called (111).”</p>
+      <p>We found that all users felt confident in recognising changes in their skin. Even if the change wasn’t red, users could tell if their skin looked abnormal. So, we added a point about the skin looking “a different colour than normal” to some questions, as all users could recognise this, and it isn’t specific enough to exclude patients with brown and black skin who may experience skin changes in a different way to white patients. Users viewed this positively and one said, “you haven't assumed the person calling is of a white background.” </p>
+        <table class="nhsuk-table">
+  <caption class="nhsuk-table__caption">Examples of the changes made</caption>
+  <thead role="rowgroup" class="nhsuk-table__head">
+    <tr role="row">
+      <th role="columnheader" class="" scope="col">
+        Original 111 question
+      </th>
+      <th role="columnheader" class="" scope="col">
+        Revised 111 question
+      </th>
+    </tr>
+  </thead>
+  <tbody class="nhsuk-table__body">
+    <tr role="row" class="nhsuk-table__row">
+      <td class="nhsuk-table__cell">Has a leg suddenly become cold, pale or blue?  </td>
+      <td class="nhsuk-table__cell ">Has a leg suddenly become cold, pale, blue or grey?</td>
+    </tr>
+    <tr role="row" class="nhsuk-table__row">
+      <td class="nhsuk-table__cell">Is the skin in the painful area sore, red or blistered?</td>
+      <td class="nhsuk-table__cell ">Is the skin in the painful area sore, blistered or a different colour than normal?</td>
+    </tr>
+    <tr role="row" class="nhsuk-table__row">
+      <td class="nhsuk-table__cell">Is there rapidly spreading redness near the wound?</td>
+      <td class="nhsuk-table__cell ">Is there rapidly spreading redness or a change in the colour of the skin near the wound?</td>
+    </tr>
+  </tbody>
+</table>
+
+  <h2>Implications</h2>
+  <p>In all, 31 questions related to skin appearance were revised based on the findings of this research and these questions have the potential to reach an audience of millions of people across England. While the changes may look small, we can now feel more confident that the questions will be appropriate and safe for all patients. Speaking with users was an essential part of this work, as it informed all the changes we made and highlighted issues that we weren’t previously aware of. It was clear that the Pathways team saw the value in user research and understood just how important it is to see a service through the eyes of your users.</p>
+
+  <p>Here are a few quotes from the team as they reflected on the overall project: </p>
+
+  <p>“User research is massively helpful to understand the views, experiences and thoughts of others to challenge your own outlook on matters. It also provides a solid foundation to justify changes and actions made.”</p>
+  <p>“I never thought of the implications some questions would have to different skin tones and it's made me view it in a new light towards other previously unthought of and unconscious biases that may be in the system.” </p>
+  <p>“I was sceptical of the MDT at first - Pathways content is applicable to everyone, every time- I was wrong. I have learned to see the Pathways experience through the eyes of other people. It has given me a resolve to take that learning into the next piece of work I do.” </p>
+
+  <p>If you’d like to hear more about this research, please get in touch.</p>
+
+  <h5>Brigit O’Sullivan</h5>
+  <p>brigit.o’sullivan1@nhs.net</p>
+
+  </div>
+{% endblock %}
