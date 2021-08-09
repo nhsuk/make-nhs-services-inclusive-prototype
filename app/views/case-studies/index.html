@@ -1,0 +1,72 @@
+
+{% extends 'layout.html' %}
+
+{% block pageTitle %}
+  Why it's important - Make NHS services inclusive
+{% endblock %}
+
+{% block beforeContent %}
+  {{ breadcrumb({
+    items: [
+      {
+        href: "/index",
+        text: "Home"
+      }
+    ]
+  }) }}
+{% endblock %}
+
+{% block content %}
+<div class="nhsuk-grid-row">
+  <div class="nhsuk-grid-column-two-thirds">
+    <h1 class="nhsuk-u-margin-bottom-6">
+      Case studies
+    </h1>
+    <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2">
+      Contributors
+    </h2>
+    <ul class="app-contributors nhsuk-u-margin-bottom-6">
+    <li><a id="emma-parnell" href="#"><img src="/images/emma-parnell.jpg" alt="emma parnell"></a></li>
+    <li><a id="brigit-osullivan" href="#"><img src="/images/brigit-osullivan.jpg" alt="brigit o'sullivan"></a></li>
+    <li><a id="rhiannon-smith" href="#"><img src="/images/rhiannon-smith.png" alt="rhiannon smith"></a></li>
+    </ul>
+    <hr>
+  </div>
+</div>
+
+  <div class="nhsuk-grid-row">
+ <div class="nhsuk-grid-column-two-thirds">
+   <div class="nhsuk-u-reading-width">
+
+  <div class="nhsuk-card nhsuk-card--clickable">
+    <div class="nhsuk-card__content">
+      <h3 class="nhsuk-card__heading"><a href="https://digital.nhs.uk/blog/design-matters/2021/making-content-about-skin-symptoms-more-inclusive">Making content about skin symptoms more inclusive</a></h3>
+      <p class="nhsuk-card__metadata nhsuk-body-s nhsuk-u-secondary-text-color nhsuk-u-margin-bottom-0">30 July 2021</p>
+      <p class="nhsuk-card__metadata nhsuk-body-s nhsuk-u-font-weight-bold">Rhiannon Smith, content Designer for NHS.UK</p>
+      <p class="nhsuk-card__description">How the NHS website team are making content about skin symptoms more inclusive.</p>
+    </div>
+  </div>
+
+      <div class="nhsuk-card nhsuk-card--clickable">
+        <div class="nhsuk-card__content">
+          <h3 class="nhsuk-card__heading"><a href="pathways-racial-equality-user-research">Racial equality user research</a></h3>
+          <p class="nhsuk-card__metadata nhsuk-body-s nhsuk-u-secondary-text-color nhsuk-u-margin-bottom-0">29 July 2021</p>
+          <p class="nhsuk-card__metadata nhsuk-body-s nhsuk-u-font-weight-bold">Brigit O'Sullivan, 111 online and 111 pathways</p>
+          <p class="nhsuk-card__description">A reflection on the value of user research in making Pathways questions more inclusive for people of colour.</p>
+        </div>
+      </div>
+
+        <div class="nhsuk-card nhsuk-card--clickable">
+            <div class="nhsuk-card__content">
+              <h3 class="nhsuk-card__heading"><a href="https://emmaparnell.medium.com/lets-talk-about-sex-6bb64c7e8f0c">Let's talk about sex*</a></h3>
+              <p class="nhsuk-card__metadata nhsuk-body-s nhsuk-u-secondary-text-color nhsuk-u-margin-bottom-0">Medium, 19 March 2021</p>
+              <p class="nhsuk-card__metadata nhsuk-body-s nhsuk-u-font-weight-bold">Emma Parnell, NHS vaccine booking service</p>
+              <p class="nhsuk-card__description">How a team worked to make a national service inclusive for people of any sex or gender.</p>
+            </div>
+          </div>
+
+          </div>
+          </div>
+          </div>
+
+{% endblock %}
