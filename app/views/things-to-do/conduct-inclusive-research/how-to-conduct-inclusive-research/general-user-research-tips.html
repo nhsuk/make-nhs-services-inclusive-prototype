@@ -6,22 +6,20 @@
 {% endblock %}
 
 {% block beforeContent %}
-  {{ breadcrumb({
-    items: [
-      {
-        href: "/index",
-        text: "Home"
-      },
-      {
-        href: "/things-to-do/conduct-inclusive-research",
-        text: "Conduct inclusive research"
-      },
-      {
-        href: "/things-to-do/conduct-inclusive-research/how-to-conduct-inclusive-research",
-        text: "How to conduct inclusive research"
-      }
-      ]
-  }) }}
+{{ breadcrumb({
+  items: [
+    {
+      href: "/index",
+      text: "Home"
+    },
+    {
+      href: "/things-to-do/conduct-inclusive-research",
+      text: "Conduct inclusive research"
+    }
+    ],
+      href: "/things-to-do/conduct-inclusive-research/how-to-conduct-inclusive-research",
+      text: "How to conduct inclusive research"
+}) }}
 {% endblock %}
 
 {% block content %}
