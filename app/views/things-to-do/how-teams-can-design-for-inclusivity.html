@@ -1,0 +1,47 @@
+
+{% extends 'layout.html' %}
+
+{% block pageTitle %}
+  Change the way you design and build things - Make NHS services inclusive
+{% endblock %}
+
+{% block beforeContent %}
+  {{ breadcrumb({
+        href: "/index",
+        text: "Home"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+      <h1 class="nhsuk-u-margin-bottom-6">
+        How teams can design for inclusivity
+      </h1>
+      <hr>
+
+      <p>The first step in designing inclusively is to understand who is excluded from accessing NHS services and how they are excluded.</p>
+      <p>The NHS endorses user-centred design as a way of designing healthcare services inclusively. This approach focuses on the needs of users to incrementally develop services. Services are developed in stages and are tested before being made available to the public.</p>
+      <p>Inclusive design is an iterative process and so we acknowledge that services might not get it right first time.</p>
+      <p>Teams who design and deliver services should take several steps when using user-centred design to make sure services are as inclusive as possible.</p>
+
+      <h2>Be accountable</h2>
+      <p>Teams should hold themselves accountable for stating who might currently be excluded from a particular service. Accountability includes saying how we are going to include those who are currently excluded.</p>
+
+      <h2>Learn from users</h2>
+      <p>Teams should keep the voices of those who are directly affected by the design of healthcare services, and those who are most likely to be excluded, at the centre of the design and development process.</p>
+
+      <h2>Understand that disadvantage can be long-term or temporary</h2>
+      <p>Teams should understand that people’s experience of inequality and disadvantage can be long-term or temporary. What people can do, or feel able to do, at any given time can vary according to permanent, temporary or situational factors.</p>
+      
+      <h2>Design for someone permanently excluded</h2>
+      <p>When we design services for someone who might be permanently excluded, this also improves the experience of many more people. It helps people who might be experiencing temporary or situational exclusion and makes the service better for everyone else.</p>
+
+      <h2>Understand the effect of people experiencing multiple disadvantages</h2>
+      <p>Teams should understand that people can experience multiple disadvantages at once and that this can multiply their exclusion from healthcare services. For example, someone who is from an ethnic minority background, experiencing poverty, in a rural area, with a lack of access to transport links, and is fearful of healthcare services experiences multiple barriers to accessing healthcare services.</p>
+
+      <h2>Be facilitators rather than experts</h2>
+      <p>The people with and for whom we are designing and delivering services are all experts in their lived experience.</p>
+
+    </div>
+{% endblock %}

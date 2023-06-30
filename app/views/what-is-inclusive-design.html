@@ -1,0 +1,35 @@
+
+{% extends 'layout.html' %}
+
+{% block pageTitle %}
+  Why it's important - Make NHS services inclusive
+{% endblock %}
+
+{% block beforeContent %}
+  {{ breadcrumb({
+        href: "/index",
+        text: "Home"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+      <h1 class="nhsuk-u-margin-bottom-4">
+        What we mean by inclusive design
+      </h1>
+
+      <hr>
+
+      <p>This definition of inclusive design is for anyone who designs, delivers, or is responsible for an NHS England product or service.</p> 
+      <p>Inclusive design is an approach to designing and delivering NHS services so that everyone can access them regardless of their background or life experience.</p> 
+      <p>Everyone who leads, designs or delivers an NHS service has a role in making services inclusive.</p> 
+      <p>This involves recognising where people might experience barriers when accessing services and promoting an inclusive workplace culture, mindset and processes.</p> 
+
+      <p><a href="https://service-manual.nhs.uk/standards-and-technology/service-standard-points/5-make-sure-everyone-can-use-the-service">Point 5 of the NHS service standard</a> is about making sure everyone can use a service. This includes more information about what we mean by inclusion and accessibility.</p>
+
+      <p><a href="why-its-important">Find out more about why inclusive design is important in NHS services</a>.</p>
+
+
+  </div>
+{% endblock %}
