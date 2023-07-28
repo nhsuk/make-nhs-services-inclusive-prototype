@@ -23,11 +23,11 @@
 <li>Get a local version of this repo:</li>
 
   <ol>
-<li>Navigate to the folder you want to clone the repo to in terminal <pre>cd [folder]</pre></li>
+<li>Navigate to the folder you want to clone the repo to in terminal <pre>cd folder-name</pre></li>
 <li>Clone this repo using <pre>git clone https://github.com/nhsuk/make-nhs-services-inclusive-prototype.git</pre></li>
   </ol>
   
-<li>Move into the local copy: <pre>cd [prototype-name-on-your-device]</pre></li>
+<li>Move into the local copy: <pre>cd prototype-name-on-your-device</pre></li>
 <li>Install all the modules by entering: <pre>npm install</pre></li>
 <li>Run it: <pre>npm run watch</pre></li>
 <li>Look at it in your browser <a href="http://localhost:3000/">http://localhost:3000/</a></li>
