@@ -16,7 +16,7 @@
   <ol>
 <li>If you have an error or a version lower than 8 then you need to download the latest version.</li>
 <li>You can download and install the latest version of node here: https://nodejs.org/en/</li>
-<li>Afterwards check to see if it is installed properly by entering: <pre>node --version</pre> again</li>
+<li>Afterwards check to see if it is installed properly by entering: <pre>node --version</pre></li>
   </ol>
   
 <li>Get a local version of this repo:</li>
