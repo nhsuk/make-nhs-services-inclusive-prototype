@@ -7,6 +7,7 @@
 <p>In March 2022 Snook were hired to design <a href="https://app.mural.co/t/snook9365/m/snook9365/1649926325095/56cdbcdd0112a86d1101e8820f1a9caa3ee4ebd7?sender=uc57e8beacae1be0dda5b2638">a roadmap for inclusive change at NHS Digital</a>. Part of their roadmap was to develop clear standards for inclusive design. Which led to them coming back in 2023 for another project to create an inclusive definition and framework for considering inclusive design at NHS England.</p>
 <p>The most recent update features this definition and additional guidance that was created by Snook whilst creating the definition and framework.</p>
 <p>The prototype is hosted on Heroku: https://make-nhs-services-inclusive.herokuapp.com/</p>
+<p>User name and password is set via heroku in the settings tab under cofig vars.</p>
 
 ## Installation:
 <ol>
